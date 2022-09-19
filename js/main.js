@@ -1,8 +1,6 @@
-element = document.getElementById('opis');
-console.log(element);
-button = document.querySelector('button');
-button.onclick = function() { 
-document.write("przykładowy tekst");
+let element = document.getElementById('opis');
+let button = document.querySelector('button');
+button.onclick = function() {
+    element.textContent = "Przykładowy text";
 }
-
 
